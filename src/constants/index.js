@@ -131,45 +131,18 @@ const experiences = [
   },
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
-
 const projects = [
   {
-    name: "Car Rent",
+    name: "Resto App",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to search, book, and manage reservation for a restaurant, providing a convenient and efficient solution for restauration needs.",
     tags: [
       {
-        name: "react",
+        name: "PHP/Laravel",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Mysql",
         color: "green-text-gradient",
       },
       {
@@ -178,15 +151,15 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Younes-baddou/Systeme-reservation-restaurant",
   },
   {
-    name: "Job IT",
+    name: "Ibay",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "This project involves developing a RESTful API with C# and .NET Core for iBay Ltd to facilitate online store experiences, enabling users to access product information and sellers to list their products, backed by SQL Server with Entity Framework Core.",
     tags: [
       {
-        name: "react",
+        name: "Aspt.Net",
         color: "blue-text-gradient",
       },
       {
@@ -194,34 +167,31 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Entity Framework",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Younes-baddou/Ibay",
   },
   {
-    name: "Trip Guide",
+    name: "SGBD",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
       {
-        name: "nextjs",
+        name: "PLSQL",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Oracle-Apex",
         color: "green-text-gradient",
       },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
+      
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Younes-baddou/Projet-SGBD-",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };
